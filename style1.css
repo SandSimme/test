@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color:gray;
+}
+/*2023.html*/
+.image p{
+    font-size: 35px;
+    color: aliceblue;
+}
+.image img {
+    width: 50%;
+}
+.image1 p{
+    font-size: 35px;
+    color: aliceblue;
+}
+.image1 img {
+    width: 50%;
+}
+.image2 p{
+    font-size: 35px;
+    color: aliceblue;
+}
+.image2 img {
+    width: 50%;
+}
+.image3 p{
+    font-size: 35px;
+    color: white;
+}
+.image3 img {
+    width: 50%;
+}
+.image4 p{
+    font-size: 35px;
+    color: aliceblue;
+}
+.image4 img {
+    width: 50%;
+}
+
+/*2023.html*/
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.row .column p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.image6 img {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.image6 img {
+    content: "";
+    clear: both;
+    display: table;
+}
+.image6 img {
+    display: flex;
+  }
+  
+.image6 img {
+    flex: 50%;
+    padding: 10px;
+  }
+.text {
+    font-size: 120%;
+    color: aliceblue;
+}
+
+/*2024.html*/
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row1 {
+    display: flex;
+  }
+  
+.column1 {
+    flex: 33.33%;
+    padding: 5px;
+}
+.row1 .column1 p{
+    font-size: 20px;
+    color: aliceblue;
+}
